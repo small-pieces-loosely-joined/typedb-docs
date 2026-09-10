@@ -17,3 +17,4 @@ In this lesson, we'll set up the environment needed to work through this course.
 ****
 Deploy the sample database and install TypeDB Studio.
 ****
+--
