@@ -3,7 +3,7 @@ site:
   start_page: home:ROOT:index.adoc
   robots: allow
 content:
-  edit_url: 'https://github.com/typedb/typedb-docs/edit/development/{path}'
+  edit_url: 'https://github.com/typedb/typedb-docs/edit/3.x-master/{path}'
   sources:
     - url: .
       start_path: home
