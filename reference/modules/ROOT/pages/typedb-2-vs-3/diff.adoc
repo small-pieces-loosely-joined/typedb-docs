@@ -79,7 +79,7 @@ Consider using one of xref:{page-version}@reference::typedb-grpc-drivers/index.a
 | `define name sub attribute` | `define attribute name` |
 | `define age sub attribute, value long` | `define attribute age, value integer` |
 | `define object sub entity, abstract` | `define entity object @abstract` |
-| `define phone-number sub attribute, regex "\\d{10}"` | `define attribute phone-number @regex "\\d{10}"` |
+| `define phone-number sub attribute, regex "\\d\{10}"` | `define attribute phone-number @regex "\\d\{10}"` |
 | `define child owns child-name as name` | `define entity child, owns name` | `as` is no longer applicable to `owns`
 | `define child plays child-employee as employee` | `define entity child, plays employee` | `as` is no longer applicable to `plays`
 | `define rule my-rule` | Use functions instead | Rules are now replaced by functions
